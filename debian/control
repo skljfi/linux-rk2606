@@ -19,7 +19,7 @@ Build-Depends: debhelper-compat (= 13),
                rsync,
                zstd,
 
-Package: linux-image
+Package: linux-image-rock-4d
 Architecture: all
 Section: kernel
 Priority: optional
@@ -27,25 +27,25 @@ Provides: linux-image
 Depends: radxa-overlays-dkms,
          linux-image-${binary:Version}-rk2606,
          ${misc:Depends},
-Description: Radxa Linux meta-package for new product
+Description: Radxa Linux meta-package for ROCK 4D
  This is the meta-package for Linux kernel.
 
-Package: linux-headers
+Package: linux-headers-rock-4d
 Architecture: all
 Section: kernel
 Priority: optional
 Provides: linux-headers
 Depends: linux-headers-${binary:Version}-rk2606,
          ${misc:Depends},
-Description: Radxa Linux headers meta-package for new product
+Description: Radxa Linux headers meta-package for ROCK 4D
  This is the meta-package for Linux headers.
 
-Package: linux-libc-dev
+Package: linux-libc-dev-rock-4d
 Architecture: all
 Section: kernel
 Priority: optional
 Depends: linux-libc-dev (= ${binary:Version}),
          ${misc:Depends},
-Description: Radxa Linux libc-dev meta-package for new product
+Description: Radxa Linux libc-dev meta-package for ROCK 4D
  This is the meta-package for Linux libc-dev.
 
