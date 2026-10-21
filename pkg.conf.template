@@ -1,20 +1,8 @@
 {
   "*": {
     "Releases": [
-      "bookworm",
-      "bookworm-test",
-      "trixie",
-      "trixie-test",
-      "sid",
-      "sid-test",
-      "focal",
-      "focal-test",
-      "jammy",
-      "jammy-test",
-      "noble",
-      "noble-test",
-      "resolute",
-      "resolute-test"
+      "rk3576-trixie",
+      "rk3576-trixie-test",
     ]
   }
 }
